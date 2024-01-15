@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KnowMoreActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="?attr/colorSecondary"
+        android:paddingStart="5dp"
+        android:text="Name"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewKnowName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:text="Name"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="?attr/colorSecondary"
+        android:paddingStart="5dp"
+        android:text="Location(s)"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewKnowLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:text="Locations: "
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="?attr/colorSecondary"
+        android:paddingStart="5dp"
+        android:text="Taxonomy"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewTaxonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:text="Taxonomy"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="?attr/colorSecondary"
+        android:paddingStart="5dp"
+        android:text="Other Details"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textViewCharacterstics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:text="Characterstics"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="16sp" />
+
+</LinearLayout>
